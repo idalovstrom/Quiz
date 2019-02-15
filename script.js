@@ -1,0 +1,11 @@
+$(function(){
+	$('#sQ1').hide();
+	$('#sQ2').hide();
+});
+$('.btn-success').click(function(){
+		$('#sQ1').show();
+	});
+$('.btn-primary').click(function(){
+		$('#sQ2').show();
+		$('#sQ1').hide();
+	});

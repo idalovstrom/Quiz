@@ -1,0 +1,36 @@
+.bg{
+	background-color: #caf9e8;
+}
+.ruta{
+	margin: auto;
+	margin-top: 25px;
+	background-color: #ffffff;
+	box-shadow: 2px 4px 9px -1px rgba(40,40,40,0.5);
+	padding: 20px;
+	width: 850px;
+	border-radius: 15px;
+
+}
+.mitten{
+	text-align: center;
+}
+button .btn{
+	display: inline-block;
+}
+.fint{
+	border: 1px solid #457c31;
+}
+.knapp{
+	margin-left: 700px;
+}
+.bday{
+	border: 1px solid #444444;
+	margin: 10px;
+	width: 140px;
+	float: left;
+}
+.startaQuiz{
+}
+.rattStorlek{
+	font-size: 18px;
+}

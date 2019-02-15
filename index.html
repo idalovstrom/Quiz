@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Taget ifrån Bootsrtap för att få finare allt -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Quiz</title>
+
+</head>
+<body class="container bg">
+	<div class="ruta">
+		<h1 class="mitten">Quiz om Mig!</h1>
+		<h5 class="mitten">Tio väldigt kluriga frågor om fantastiska lilla jag.</h5>
+		<br></br>
+		<div class="mitten">
+			<button class="btn btn-success fint">Starta Quiz</button>
+		</div>
+	</div>
+	<div id="sQ1" class="ruta">
+		<h4>Fråga 1:</h4>
+		<label for="namn" class="rattStorlek">Hur lyder mitt fullstndiga namn? </label><br>
+		<input type="radio" name="namn" value="felNamnEtt"> Ida Annie Lövström <br>
+		<input type="radio" name="namn" value="rattNamn"> Ida Nikolina Lövström <br>
+		<input type="radio" name="namn" value="felNamnTva"> Ida Sara Lövström <br>
+		<button id="f1" class="btn btn-primary fint knapp">Nästa fråga</button>
+	</div>
+	<div id="sQ2" class="ruta">
+		<h4>Fråga 2:</h4>
+		<label for="bday" class="rattStorlek">Vilket datum är jag född? </label><br>
+		<button class="btn btn-secondary bday">14 april</button>
+		<button class="btn btn-secondary bday">14 maj</button>
+		<button class="btn btn-secondary bday">14 september</button>
+		<button class="btn btn-secondary bday">14 november</button>
+		<button id="f2" class="btn btn-primary fint knapp">Nästa fråga</button>
+	</div>
+
+
+	<!-- JavaScript från bootstrap -->
+	<!-- jQuery, Popper.js, och Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
